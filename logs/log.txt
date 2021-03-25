@@ -1,0 +1,2 @@
+2021-03-25 18:08:41 [main] DEBUG ConsoleLog  return average value of array
+2021-03-25 18:08:41 [main] DEBUG ConsoleLog  return average value of array

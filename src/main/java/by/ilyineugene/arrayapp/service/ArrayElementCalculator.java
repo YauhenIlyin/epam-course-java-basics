@@ -8,7 +8,7 @@ import org.apache.logging.log4j.Logger;
 public class ArrayElementCalculator <DATA_TYPE extends Number> {
     static Logger logger = LogManager.getLogger("ConsoleLog");
 
-    public double calculateAverageValue(DATA_TYPE [] array) {
+    public Double calculateAverageValue(DATA_TYPE [] array) {
         try {
             if (array.length == 0) {
                 //fatal ???????????????????????????
@@ -18,11 +18,12 @@ public class ArrayElementCalculator <DATA_TYPE extends Number> {
                 for (int index = 0; index < array.length; index++) {
                     sum += array[index].doubleValue();
                 }
+                logger.log(Level.DEBUG, " return average value of array");
                 return sum / array.length;
             }
         } catch (CountElementsOfArrayException e) {
             logger.log(Level.DEBUG, this.getClass().getName() + " : incorrect initial data. array size is 0. return 0");
         }
-        return 0;
+        return 0.0;
     }
 }
