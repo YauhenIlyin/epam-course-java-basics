@@ -2,22 +2,22 @@ package by.ilyineugene.arrayapp.entity;
 
 import java.util.Arrays;
 
-public class EntityArray <DATA_TYPE extends Number> {
+public class EntityArray <T extends Number> {
 
-    private DATA_TYPE [] array = null;
+    private T[] array;
 
     public EntityArray() {
     }
 
-    public EntityArray(DATA_TYPE [] array) {
-        this.array = array;
+    public EntityArray(T[] array) {
+        this.array = Arrays.copyOf(array,array.length);
     }
 
-    public DATA_TYPE[] getArray() {
+    public T[] getArray() {
         return array;
     }
 
-    public void setArray(DATA_TYPE[] array) {
-        this.array = array;
+    public void setArray(T[] array) {
+        this.array = Arrays.copyOf(array,array.length);
     }
 }
