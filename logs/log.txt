@@ -1,4 +1,11 @@
-2021-03-25 18:08:41 [main] DEBUG ConsoleLog  return average value of array
-2021-03-25 18:08:41 [main] DEBUG ConsoleLog  return average value of array
-2021-03-25 18:12:48 [main] DEBUG ConsoleLog  return average value of array
-2021-03-25 18:12:48 [main] DEBUG ConsoleLog  return average value of array
+
+2021-03-29 16:11:31 [main] DEBUG ConsoleLog return max value of array
+2021-03-29 16:11:31 [main] DEBUG ConsoleLog return max value of array
+2021-03-29 16:11:31 [main] DEBUG ConsoleLog return max value of array
+2021-03-29 16:11:31 [main] DEBUG ConsoleLog return max value of array
+2021-03-29 16:11:31 [main] DEBUG ConsoleLog return max value of array
+2021-03-29 16:11:31 [main] DEBUG ConsoleLog return max value of array
+2021-03-29 16:11:31 [main] DEBUG ConsoleLog return min value of array
+2021-03-29 16:11:31 [main] DEBUG ConsoleLog return min value of array
+2021-03-29 16:11:31 [main] DEBUG ConsoleLog return min value of array
+2021-03-29 16:11:31 [main] DEBUG ConsoleLog return min value of array
