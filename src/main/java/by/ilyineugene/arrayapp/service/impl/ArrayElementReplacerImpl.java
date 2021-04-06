@@ -1,6 +1,5 @@
 package by.ilyineugene.arrayapp.service.impl;
 
-import by.ilyineugene.arrayapp.entity.EntityArray;
 import by.ilyineugene.arrayapp.exception.OperationArrayException;
 import by.ilyineugene.arrayapp.service.ArrayElementReplacer;
 import by.ilyineugene.arrayapp.validator.ArrayValidator;

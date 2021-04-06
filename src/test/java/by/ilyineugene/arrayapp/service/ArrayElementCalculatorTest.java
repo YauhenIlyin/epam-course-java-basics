@@ -10,7 +10,7 @@ import org.testng.annotations.Test;
 
 import static org.testng.Assert.*;
 
-public class ArrayElementCalculatorImplTest {
+public class ArrayElementCalculatorTest {
     ArrayElementCalculatorImpl arrayElementCalculatorImpl;
     EntityArray entityArray;
 

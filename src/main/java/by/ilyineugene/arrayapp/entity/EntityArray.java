@@ -30,7 +30,6 @@ public class EntityArray<T extends Number> {
     public T[] getArrayCopy() {
         return Arrays.copyOf(array, array.length);
     }
-    //clone ?
 
     @Override
     public String toString() {
@@ -79,7 +78,4 @@ public class EntityArray<T extends Number> {
         return hashCodeOfArray;
     }
 
-    //toString
-    //equals
-    //hashcode
 }
